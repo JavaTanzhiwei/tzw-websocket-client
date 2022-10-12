@@ -17,7 +17,7 @@ public class Clients {
 
     @SneakyThrows
     public static void main(String[] args) {
-        MyWebSocketClient client = new MyWebSocketClient(new URI("ws://localhost:8012/websocket/LOGOFF_NOTICE/4:64378994-d822-49ce-8242-b9a4c237405c"));
+        MyWebSocketClient client = new MyWebSocketClient(new URI("ws://localhost:8012/websocket/LOGOFF_NOTICE/36pE6sLIQJLSdgdYXtjRl2LM8w69FGCq"));
         connect(client);
     }
 

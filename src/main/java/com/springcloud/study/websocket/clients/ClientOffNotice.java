@@ -13,7 +13,7 @@ import java.net.URI;
 public class ClientOffNotice {
     @SneakyThrows
     public static void main(String[] args) {
-        MyWebSocketClient client = new MyWebSocketClient( new URI("ws://localhost:8012/websocket/LOGOFF_NOTICE/USER202203250000001:f63c418f-e702-4658-b9b7-c45e99bc7c26"));
+        MyWebSocketClient client = new MyWebSocketClient( new URI("ws://localhost:8012/websocket/LOGOFF_NOTICE/36pE6sLIQJLSdgdYXtjRl2LM8w69FGCq"));
         Clients.connect(client);
     }
 }
